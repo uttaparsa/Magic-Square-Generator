@@ -40,9 +40,11 @@ private:
 	int mutationChance;
 	int populationSize;
 	int n;
+	int matingPoolSize;
 	std::vector<int> randomizedIndexes;
 	MagicSquare** population;
 	MagicSquare** matingPool;
 	MagicSquare** elite;
+
 };
 

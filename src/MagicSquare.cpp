@@ -1,6 +1,7 @@
 #include "MagicSquare.h"
 #include <vector>
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -52,6 +53,8 @@ MagicSquare::MagicSquare(const MagicSquare * sq)
 //This paper was used as a reference, but the code below is my own implementation.
 MagicSquare::MagicSquare(const MagicSquare* square1, const MagicSquare* square2, int mutationChance, int childNum)
 {
+
+	
 	generations = 0;
 
 	this->n = square1->size();
@@ -152,6 +155,8 @@ MagicSquare::MagicSquare(const MagicSquare* square1, const MagicSquare* square2,
 	delete[] childInverse;
 
 	CalculateFitness();
+	
+
 
 }
 

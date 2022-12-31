@@ -345,3 +345,9 @@ healthchecksdb
 SDL2.dll
 roms/
 SDL2-2.0.9/
+
+
+out
+out_serial
+
+.vscode/
